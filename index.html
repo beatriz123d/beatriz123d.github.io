@@ -3,192 +3,220 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet"hret="css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO Bàsico-->
-     <meta
-     name="description"
-     content="portifòlio pessoal de beatriz coutinho lash desing e atualmente estudante de tecnologia, conheca meus projetos e habilidades">
+    <meta name="description"
+        content="Portfólio pessoal de Beatriz Coutinho, lash designer e estudante de tecnologia.">
+<script src="script.js" defer></script>
+    <title>Beatriz Coutinho | Portfólio</title>
 
-    
-     </head>
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <body>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 
-    <!-- cabeçalho-->
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
     <header>
 
-        <h1 class="barco"> beatriz coutinho</h1>
+        <h1>Beatriz Coutinho</h1>
 
-        <p class="rosa"> lash desing e estudante na area de tecnologia</p>
+        <p class="subtitulo">
+            Lash Designer & Estudante de Tecnologia
+        </p>
 
-        <!-- menu -->
-         <nav class="barco">
-            <a href="#hero"> Inicio</a> 
-            <a href="#Sobre"> Sobre</a>
-            <a href="habilidades"> habilidades</a>
-            <a href="projetos">projetos</a>
-            <a href="contatos"> contato</a>
-            
-          </nav>
-    
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
     </header>
 
-    <!-- conteùdo principal-->
-     <main>
 
-         <!--hero-->
-         <section id="hero">
+    <!-- INÍCIO -->
+    <section id="inicio" class="hero">
 
-            <h2>olà, eu sou beatriz coutinho</h2>
-
-            <img
-
+        <img
             src="perfil.png"
-            alt="foto de beatriz coutinho">
+            alt="Foto de Beatriz Coutinho"
+            class="foto-perfil"
+        >
 
-
-    
-         </section>
-     </main>
-
-</body>
-
- </header>
-
-    <!-- Conteúdo principal -->
-    <main>
-
-        <!-- Hero -->
-        <section id="hero">
-
-            
-        
-                
-                
-
-            <p>
-                Sou estudante de desenvolvimento web e lash desing nas horas vagas, estou construindo
-                meu portfólio para compartilhar meus projetos e aprendizados.
-            </p>
-
-        </section>
-
-        <!-- Sobre -->
-        <section id="sobre">
-
-            <h2>Sobre Mim</h2>
-
-            <p>
-                Tenho interesse em desenvolvimento web e estou aprendendo
-                HTML, CSS e outras tecnologias para criar sites modernos.
-            </p>
-
-        </section>
-
-        <!-- Habilidades -->
-        <section id="habilidades">
-
-            <h2>Habilidades</h2>
-
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Git e GitHub</li>
-            </ul>
-
-        </section>
-
-        <!-- Projetos -->
-        <section id="projetos">
-
-            <h2>Projetos</h2>
-
-            <tableborder="1">
-
-                <tr>
-                    <td>Projeto</td>
-                    <td>Descrição</td>
-                </tr>
-
-                <tr>
-                    <td>Landing Page</td>
-                    <td>Página criada utilizando HTML.</td>
-                </tr>
-
-                <tr>
-                    <td>Currículo Online</td>
-                    <td>Primeira versão do meu portfólio.</td>
-                </tr>
-
-            </table>
-
-        </section>
-
-        <!-- Contato -->
-        <section id="contato">
-
-            <h2>Entre em Contato</h2>
-
-            <form action="#" method="post">
-
-                <p>
-
-                    <label for="nome">Nome</label><br>
-
-                    <input
-                        type="text"
-                        id="nome"
-                        name="nome">
-
-                </p>
-
-                <p>
-
-                    <label for="email">E-mail</label><br>
-
-                    <input
-                        type="email"
-                        id="email"
-                        name="email">
-
-                </p>
-
-                <p>
-
-                    <label for="senha">Senha</label><br>
-
-                    <input
-                        type="password"
-                        id="senha"
-                        name="senha">
-
-                </p>
-
-                <p>
-
-                    <input
-                        type="submit"
-                        value="Enviar">
-
-                </p>
-
-            </form>
-
-        </section>
-
-    </main>
-
-    <!-- Rodapé -->
-    <footer>
-
-        <p>&copy; 2026 Beatriz coutinho</p>
-
-        <p>E-mail: coutinhobia14@gmail.com</p>
+        <h2>Olá, eu sou Beatriz!</h2>
 
         <p>
-            <a class="link-social" href="#">GitHub</a> |
-            <a class="link-social" href="#">LinkedIn</a>
+            Seja bem-vindo(a) ao meu portfólio.
+            Aqui compartilho um pouco sobre mim,
+            minhas habilidades, projetos e minha jornada
+            na área de tecnologia.
+        </p>
+
+    </section>
+
+
+    <!-- SOBRE -->
+    <section id="sobre" class="secao">
+
+        <h2>Sobre Mim</h2>
+
+        <div class="linha"></div>
+
+        <p>
+            Sou estudante de desenvolvimento web e também
+            trabalho como lash designer nas horas vagas.
+        </p>
+
+        <p>
+            Atualmente estou construindo minha jornada na área
+            de tecnologia e aprendendo novas ferramentas para
+            desenvolver sites modernos, bonitos e funcionais.
+        </p>
+
+    </section>
+
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="secao rosa-claro">
+
+        <h2>Minhas Habilidades</h2>
+
+        <div class="linha"></div>
+
+        <div class="cards">
+
+            <div class="card">
+                <span>💻</span>
+                <h3>HTML</h3>
+                <p>Criação e estruturação de páginas web.</p>
+            </div>
+
+            <div class="card">
+                <span>🎨</span>
+                <h3>CSS</h3>
+                <p>Estilização e criação de layouts modernos.</p>
+            </div>
+
+            <div class="card">
+                <span>🌐</span>
+                <h3>Git e GitHub</h3>
+                <p>Versionamento e organização de projetos.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="secao">
+
+        <h2>Meus Projetos</h2>
+
+        <div class="linha"></div>
+
+        <div class="cards">
+
+            <div class="card projeto">
+                <h3>Landing Page</h3>
+
+                <p>
+                    Página criada utilizando HTML e CSS
+                    para praticar desenvolvimento web.
+                </p>
+
+                <a href="#" class="botao">Ver projeto</a>
+            </div>
+
+
+            <div class="card projeto">
+                <h3>Currículo Online</h3>
+
+                <p>
+                    Primeira versão do meu portfólio para
+                    apresentar minhas habilidades.
+                </p>
+
+                <a href="#" class="botao">Ver projeto</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTATO -->
+    <section id="contato" class="secao rosa-claro">
+
+        <h2>Entre em Contato</h2>
+
+        <div class="linha"></div>
+
+        <form>
+
+            <label for="nome">Nome</label>
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Digite seu nome"
+            >
+
+
+            <label for="email">E-mail</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Digite seu e-mail"
+            >
+
+
+            <label for="mensagem">Mensagem</label>
+
+            <textarea
+                id="mensagem"
+                rows="5"
+                placeholder="Digite sua mensagem"
+            ></textarea>
+
+
+            <button type="submit">
+                Enviar mensagem
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <h3>Beatriz Coutinho</h3>
+
+        <p>
+            Lash Designer & Estudante de Tecnologia
+        </p>
+
+        <p>
+            E-mail:
+            <a href="mailto:coutinhobia14@gmail.com">
+                coutinhobia14@gmail.com
+            </a>
+        </p>
+
+        <p class="copyright">
+            © 2026 Beatriz Coutinho
         </p>
 
     </footer>
